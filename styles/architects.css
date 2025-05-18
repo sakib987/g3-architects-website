@@ -6,3 +6,75 @@
     font-weight: 400;
     font-style: normal;
   }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* shared style  */
+  .display-flex{
+    display: flex;
+  }
+  .title{
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: rgba(19, 19, 19, 1);
+  }
+  .primary-btn{
+    background-color: #FF900E;
+    color: #ffffff;
+    border-radius:8px ;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 20px 25px;
+    border: none;
+  }
+
+
+  /* Header style start hear */
+  .header{
+    background-color: rgba(255, 144, 14, 0.1);
+    max-width: 1920px;
+    max-height: 1322px;
+    margin: 0 auto;
+  }
+  /* navbar styles hear */
+
+  .navbar{
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 450px 50px 50px;
+    
+  }
+
+.brand{
+  
+}
+
+  .nav-links li{
+    list-style: none;
+    padding: 5;
+    padding: 30px;
+    
+    
+  }
+  
+  
+  .nav-links li a{
+    color: rgba(66, 66, 66, 1);
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+  /* header-section{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .header-conteinar{
+    max-width: 868px;
+    max-height: 52px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+  } */
